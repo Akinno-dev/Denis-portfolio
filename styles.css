@@ -1,0 +1,127 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+/* header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff0dd;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0 20px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul li a:hover{
+    color: #5690dd;
+    
+}
+.header-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.header-tittle p{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.header-tittle h1{
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+.header-button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #5690dd;
+    color: white;
+    font-weight: 600;
+}
+
+/*main styles*/
+.main-content{
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #faf6f1;
+    margin: 0;
+    padding-top: 40px;
+    
+}
+footer{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 0;
+    margin: 0;
+}
+.hello-sec{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+
+}
+.hello-image img{
+    width: 400px;
+    height: 400ps;
+}
+.hello-title{
+    padding-right:60px;
+    padding-top: 60px;
+}
+.hello-title p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    line-height: 1.6rem;
+}
+.hello-title h1{
+    font-size: 50px;
+}
+.hello-title button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid ;
+    width: 180px;
+    margin-right: 10px;
+
+}
+.hello-title .let-button{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #5690dd;
+    color: #5690dd;
+    font-weight: 600;
+}
+.hello-title .see-button{
+    background-color: #5690dd;
+    color: white;
+    font-weight: 600;
+
+}
+
+
